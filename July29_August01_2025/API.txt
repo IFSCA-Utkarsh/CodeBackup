@@ -1,0 +1,3 @@
+Gemini  = "AIzaSyAOgTy9ALGur2H22Co3A_eU9RiDZFv25rw"
+GROQ_API_KEY = "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"
+LangChain = "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"

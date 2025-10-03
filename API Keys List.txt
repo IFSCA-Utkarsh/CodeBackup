@@ -1,0 +1,5 @@
+OpenAI = "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"
+Gemini  = "AIzaSyAOgTy9ALGur2H22Co3A_eU9RiDZFv25rw"
+GeminiVenkatesh   = "AIzaSyAuDImqzDt3lua9M5NcA_P_h2H7i9dVIWo"
+GROQ_API_KEY = "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"
+LangChain = "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"

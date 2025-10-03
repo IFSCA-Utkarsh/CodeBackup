@@ -1,0 +1,6 @@
+pip install fastapi uvicorn[standard] langchain langchain-ollama langchain-chroma langchain-community python-dotenv pydantic
+pip install pydantic-settings
+pip install pypdf
+ollama serve
+ollama run phi
+python -m create_db

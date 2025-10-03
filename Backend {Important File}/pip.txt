@@ -1,0 +1,15 @@
+pip install langchain langchain-community chromadb ollama PyPDF2
+pip install langchain-ollama
+pip install pypdf
+pip install fastapi uvicorn
+pip install pydantic
+pip install -U langchain-chroma langchain-ollama
+
+pip install langchain langchain-community chromadb ollama langchain-ollama PyPDF2 pypdf fastapi uvicorn pydantic -U langchain-chroma langchain-ollama
+ollama pull nomic-embed-text
+ollama run llama3-chatqa
+npm install react react-dom
+npm install -D vite
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+npm install -D tailwindcss postcss autoprefixer
