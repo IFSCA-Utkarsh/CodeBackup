@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script type="module">
+      import { injectIntoGlobalHook } from "/@react-refresh";
+      injectIntoGlobalHook(window);
+      window.$RefreshReg$ = () => {};
+      window.$RefreshSig$ = () => (type) => type;
+    </script>
+
+    <script type="module" src="/@vite/client"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="wallpaper.jpg" />
+
+    <!-- Font Awesome for email icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <title>IFSCA IntelliChat | Internal AI Assistant</title>
+    <meta
+      name="description"
+      content="IFSCA IntelliChat is the dedicated AI assistant for employees of the International Financial Services Centres Authority, providing quick access to regulatory updates, internal resources, and procedural guidance."
+    />
+    <meta property="og:title" content="IFSCA IntelliChat | Internal AI Assistant" />
+    <meta
+      property="og:description"
+      content="IFSCA IntelliChat supports IFSCA employees with accurate information, streamlined workflows, and enhanced collaboration within the organization."
+    />
+    <meta property="og:url" content="https://ifsca.intellichat.internal" />
+    <meta property="og:site_name" content="IFSCA IntelliChat" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="IFSCA IntelliChat | Internal AI Assistant" />
+    <meta
+      name="twitter:description"
+      content="IFSCA IntelliChat supports IFSCA employees with accurate information, streamlined workflows, and enhanced collaboration within the organization."
+    />
+
+    <style>
+      /* Developer contact style (top right corner) */
+      .developer-contact {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        background: rgba(0, 0, 0, 0.05);
+        padding: 6px 10px;
+        border-radius: 8px;
+        font-size: 14px;
+        z-index: 9999;
+        transition: background 0.3s;
+      }
+
+      .developer-contact:hover {
+        background: rgba(0, 0, 0, 0.1);
+      }
+
+      .developer-contact a {
+        color: inherit;
+        text-decoration: none;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+
+      .developer-contact i {
+        font-size: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Main App -->
+    <div id="root"></div>
+
+    <!-- Developer Contact -->
+    <div class="developer-contact">
+      <a href="mailto:utkarsh.ifsca.ai@gmail.com?subject=IFSCA IntelliChat Support">
+        <i class="fas fa-envelope"></i> Contact Developer
+      </a>
+    </div>
+
+    <script type="module" src="/src/main.jsx?t=1754914159293"></script>
+  </body>
+</html>

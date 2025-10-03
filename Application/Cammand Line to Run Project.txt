@@ -1,0 +1,20 @@
+cd backend
+python -m venv RAG
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+RAG\Scripts\activate
+pip install -r requirements.txt
+pip install python-jose passlib[bcrypt] python-multipart
+python.exe -m pip install --upgrade pip
+ollama serve
+ollama pull llama3:8b
+ollama pull nomic-embed-text
+python -m database
+uvicorn main:app --reload
+cd frontend
+npm install
+npm run dev
+
+pip freeze > requirements.txt
+
+
+
